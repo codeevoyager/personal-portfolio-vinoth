@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    margin: 4rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-link{
+    transition: 0.1s;
+}
+
+nav .nav-link:hover{
+    border-bottom: 2px solid white;
+    padding: 0.2rem;
+}
+
+nav .icon{
+    cursor: pointer;
+    padding: 0.2rem 0.3rem;
+    display: none;
+}
+
+nav .icon:hover{
+    padding: 0.2rem 0.4rem;
+    background-color: white;
+    color: rgb(8, 145, 178);
+    border-radius: 5px;
+}
+
+.active a{
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
+
+#about img{
+    height: 400px;
+    width: 400px;
+}
+
+.project-link{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.project-link p{
+    padding: 0.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px #555;
+}
+
+.project-link p:hover{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+#projects img{
+    box-shadow: 0px 1px 5px #555;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+@media screen and (max-width:950px){
+    .project-content{
+        flex-direction: column;
+    }
+
+    .project-content div{
+        width: 100%;    
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .contact-content{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-link{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        float: both;
+    }
+
+    .navbar{
+        display: block;
+        float: both;
+        font-size: 1rem;
+   }
+
+   nav .icon{
+        display: block;
+        float: right;
+        position: absolute;
+        top: 0.5rem;
+        right: 2rem; 
+      }
+
+   .nav-link.responsive{
+        display: block;
+        float: both;
+        text-align: center;
+   }
+
+}
+

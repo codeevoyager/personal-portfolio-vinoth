@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="vinoth muthu">
+    <meta name="keywords" content="portfolio, frontend, html, css, javascript">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vinoth Muthu | Frontend developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+    <!----------------------------------------- header section-------------------------------------------------------------->
+    <nav class="fs-20 bg-cyan-600">
+        <div class="text-4xl text-slate-100">< vinoth /></div>
+        <ul class="text-2xl text-slate-100 gap-x-12 cursor-pointer navbar">
+            <li> <a class="nav-link" href="#home">Home</a> </li>
+            <li> <a class="nav-link" href="#about">About</a> </li>
+            <li> <a class="nav-link" href="#skills">Skills</a> </li>
+            <li> <a class="nav-link" href="#projects">Projects</a> </li>
+            <li> <a class="nav-link" href="#contact">Contact</a> </li>
+        </ul>
+        <div href="#" class="icon text-4xl py-3 text-slate-100"><i class="fa fa-bars" onclick="menu()"></i></div>
+    </nav>
+
+
+    <!----------------------------------------- Home section------------------------------------------------------------------>
+    <section class="grid grid-cols-6 gap-4 pt-52" id="home">
+        
+        <div class="col-span-3 grid gap-y-3 text-4xl justify-self-center self-center">
+            <div>Hi, I am </div>
+            <div class="font-bold"> Vinoth </div>
+            <div class="bg-cyan-600 text-slate-50 p-1"> FRONTEND DEVELOPER </div>
+            <div class="flex gap-6">
+                <a href="https://github.com/codeevoyager" target="_blank"><i class="lni lni-github-original hover:text-sky-500"></i></a>
+                <a href="https://www.linkedin.com/in/vinoth-muthu-5a8442152" target="_blank"><i class="lni lni-linkedin-original hover:text-sky-500"></i></a>
+            </div>
+        </div>
+
+        <div class="col-span-3"><img height="900" src="./Images/hello-img.svg" alt="hello image">
+        </div>
+
+    </section>
+
+    <!----------------------------------------- About section------------------------------------------------------------------>
+    <section class="grid grid-cols-6 gap-4 pt-28" id="about">
+        
+        <div class="col-span-3"><img class="rounded-3xl" height="800" src="./Images/about-img.jpg" alt="about image">
+        </div>
+
+        <div class="col-span-3 grid gap-y-3 text-start self-center">
+            <p class="text-5xl font-bold text-cyan-600 mb-8"> About me</p>
+            <div>As a motivated and enthusiastic Frontend Developer fresher, I am eager to start a dynamic career in web development. I have a solid foundation in HTML, CSS, Bootstrap and JavaScript, acquired through rigorous coursework and personal projects. Looking for an opportunity to grow and thrive in a dynamic and challenging environment.</div>
+        </div>
+
+    </section>
+
+    <!----------------------------------------- Skills section------------------------------------------------------------------>
+    <section class="py-40" id="skills">
+        <div class="text-5xl text-center font-bold text-cyan-600 mb-8"> Skills </div>
+
+        <div class="flex flex-wrap justify-center text-6xl py-8 gap-20 cursor-pointer">
+            <p class="text-red-500"> <i class="lni lni-html5" title="HTML5"></i> </p>
+            <p class="text-blue-500"> <i class="lni lni-css3" title="CSS3"></i> </p>
+            <p class="text-purple-700"> <i class="lni lni-bootstrap" title="Bootstrap"></i> </p>
+            <p class="text-sky-500"> <i class="lni lni-tailwindcss" title="tailwind css"></i> </p>
+            <p class="text-yellow-500"> <i class="lni lni-javascript" title="Javascript"></i> </p>
+            <p class="text-cyan-400"> <i class="lni lni-react" title="React JS"></i> </p>
+            <p class="text-red-500"> <i class="lni lni-git" title="Git"></i> </p>
+        </div>
+        </div>
+        
+    </section>
+
+    <!----------------------------------------- Projects section------------------------------------------------------------------>
+    <section class="pt-24" id="projects">
+
+        <div class="text-5xl text-center font-bold text-cyan-600 mb-8"> Projects </div>
+
+        <!-----------------------------------------Project-1---------------------------------------------->
+        <div class="flex gap-12 p-12 project-content">
+            <div class="w-1/2">
+                <img class="rounded-lg h-64" src="./Images/projects-preview/employee-management-crud-preview.png" alt="employee-management-crud-preview">
+            </div>
+
+            <div class="w-1/2">
+                <p class="text-2xl font-bold text-violet-900 mb-4"> Employee management system </p>
+                <p> Employee management system helps to create, update, delete and view the records of employees working in an organization. </p>    
+                <div class="flex gap-8 py-4 cursor-pointer text-center items-center">
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> React </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Bootstrap </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> React Router </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> mockAPI </p>
+                </div>
+                <div class="project-link">
+                    <p> <a href="https://github.com/codeevoyager/employee-management-crud-react" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
+                    <p> <a href="https://employee-management-crud-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------Project-2----------------------------------------------->
+        <div class="flex gap-12 p-12 reverse project-content">
+            <div class="w-1/2">
+                <p class="text-2xl font-bold text-violet-900 mb-4"> Travel Landing page - Worthy Trip</p>
+                <p> Worthy Trip - Explore the world with friends and like-minded travelers. Our group travel experiences unforgettable moments. Join our upcoming adventures with fellow explorers. </p>    
+                <div class="flex gap-8 py-4 cursor-pointer">
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> HTML5 </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> CSS3 </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Javscript </p>
+                </div>
+                <div class="project-link">
+                    <p> <a href="https://github.com/codeevoyager/Travel-landing-page" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
+                    <p> <a href="https://worthy-trip-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
+                </div>
+            </div>
+
+            <div class="w-1/2">
+                <img class="rounded-lg h-64" src="./Images/projects-preview/travel-landing-page-preview.png" alt="travel-landing-page-preview">
+            </div>
+        </div>
+
+
+        <!------------------------------------------Project-3----------------------------------------------->
+        <div class="flex gap-12 p-12 project-content">
+            <div class="w-1/2">
+                <img class="rounded-lg h-64" src="./Images/projects-preview/weather-app-preview.png" alt="weather-app-preview">
+            </div>
+
+            <div class="w-1/2">
+                <p class="text-2xl font-bold text-violet-900 mb-4"> Weather App </p>
+                <p> Plan your day with confidence by instant access to current temperature and weather conditions. </p>    
+                <div class="flex gap-4 py-4 cursor-pointer items-center">
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> HTML5 </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> CSS3 </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Javscript </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> OpenWeatherMap API </p>
+                </div>
+                <div class="project-link">
+                    <p> <a href="https://github.com/codeevoyager/weather-app" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
+                    <p> <a href="https://weather-app-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------------------------------------Project-4----------------------------------------------->
+        <div class="flex gap-12 p-12 reverse project-content">
+            <div class="w-1/2">
+                <p class="text-2xl font-bold text-violet-900 mb-4"> Frontend mentor challenges</p>
+                <p> Here you will find some responses for the frontend mentor challenges. Frontend Mentor challenges helps to improve coding skills by building realistic projects. </p>    
+                <div class="flex gap-8 py-4 cursor-pointer">
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> HTML5 </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> CSS3 </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Javscript </p>
+                </div>
+                <div class="project-link">
+                    <p> <a href="https://github.com/codeevoyager/frontend-mentor-challenge-projects" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
+                    <p> <a href="https://frontend-mentor-challenge-projects-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
+                </div>
+            </div>
+
+            <div class="w-1/2" >
+                <img class="rounded-lg h-64" src="./Images/projects-preview/frontend-mentor-projects-preview.png" alt="frontend-mentor-projects-preview">
+            </div>
+        </div>
+ 
+    </section>
+
+    <!----------------------------------------- Contact section------------------------------------------------------------------>
+    <section class="py-32 " id="contact">
+
+        <p class="text-4xl font-bold text-cyan-600 ml-16 mb-8"> Contact </p>
+
+        <div class="contact-content">
+            <div class="flex gap-4">
+                <div>
+                   <p class="text-6xl text-sky-500"> <i class="lni lni-map-marker"></i> </p>
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-sky-500">LOCATION</p>
+                    <p>Puducherry, India.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4">
+                <div>
+                   <p class="text-6xl text-sky-500"> <i class="lni lni-envelope"></i> </p>
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-sky-500"> MAIL </p>
+                    <p class="hover:text-sky-500"><a href="mailto:vinothfromearth@gmail.com" target="_blank"> vinothfromearth@gmail.com </a></p>
+                </div>
+            </div>
+
+            <div class="flex gap-4">
+                <div>
+                   <p class="text-6xl text-sky-500"> <i class="lni lni-phone"></i> </p>
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-sky-500"> MOBILE </p>
+                    <p>+917010407564</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------------------------------------- Footer section------------------------------------------------------------------>
+    <footer class="bg-slate-800 text-slate-50 text-3xl p-20 m-0 flex justify-around  [@media(max-width:900px)]:text-xl">
+        <div> <i class="fa fa-copyright"></i> 2023 PUDUCHERRY INDIA , INC. ALL RIGHTS RESERVED</div>
+
+        <div class="flex gap-4">
+            <a href="https://github.com/codeevoyager" target="_blank"><i class="lni lni-github-original hover:text-sky-500"></i></a>
+            <a href="https://www.linkedin.com/in/vinoth-muthu-5a8442152" target="_blank"><i class="lni lni-linkedin-original hover:text-sky-500"></i></a>
+        </div>
+    </footer>
+
+  
+
+    <script src="main.js">
+    </script>    
+</body>
+</html>
