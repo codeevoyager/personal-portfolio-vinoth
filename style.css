@@ -65,11 +65,11 @@ nav .icon:hover{
     width: 400px;
 }
 
-.project-link{
+/* .project-link{
     display: flex;
     gap: 2rem;
     font-size: 1.2rem;
-}
+} */
 
 .project-link p{
     padding: 0.2rem;
@@ -98,6 +98,10 @@ nav .icon:hover{
 
 
 @media screen and (max-width:950px){
+    section{
+        margin: 2rem;
+    }
+
     .project-content{
         flex-direction: column;
     }

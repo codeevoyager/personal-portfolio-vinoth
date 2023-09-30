@@ -12,7 +12,7 @@ function menu(){
 }
 
         let section = document.querySelectorAll('section');
-        let lists = document.querySelectorAll('LI');
+        let lists = document.querySelectorAll("LI");
 
         function activeLink(li) {
             lists.forEach((item) => item.classList.remove('active'));

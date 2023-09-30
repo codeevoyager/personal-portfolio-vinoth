@@ -34,38 +34,38 @@
 
 
     <!----------------------------------------- Home section------------------------------------------------------------------>
-    <section class="grid grid-cols-6 gap-4 pt-52" id="home">
+    <section class="grid grid-cols-6 gap-4 py-44" id="home">
         
         <div class="col-span-3 grid gap-y-3 text-4xl justify-self-center self-center">
             <div>Hi, I am </div>
             <div class="font-bold"> Vinoth </div>
             <div class="bg-cyan-600 text-slate-50 p-1"> FRONTEND DEVELOPER </div>
-            <div class="flex gap-6">
+            <div class="flex gap-6 text-5xl">
                 <a href="https://github.com/codeevoyager" target="_blank"><i class="lni lni-github-original hover:text-sky-500"></i></a>
                 <a href="https://www.linkedin.com/in/vinoth-muthu-5a8442152" target="_blank"><i class="lni lni-linkedin-original hover:text-sky-500"></i></a>
             </div>
         </div>
 
-        <div class="col-span-3"><img height="900" src="./Images/hello-img.svg" alt="hello image">
+        <div class="col-span-3"><img class="max-md:h-full" height="900" src="./Images/hello-img.svg" alt="hello image">
         </div>
 
     </section>
 
     <!----------------------------------------- About section------------------------------------------------------------------>
-    <section class="grid grid-cols-6 gap-4 pt-28" id="about">
+    <section class="grid grid-cols-2 gap-4 py-40 max-md:grid-cols-1" id="about">
         
-        <div class="col-span-3"><img class="rounded-3xl" height="800" src="./Images/about-img.jpg" alt="about image">
+        <div class=""><img class="rounded-3xl" height="800" src="./Images/about-img.jpg" alt="about image">
         </div>
 
-        <div class="col-span-3 grid gap-y-3 text-start self-center">
-            <p class="text-5xl font-bold text-cyan-600 mb-8"> About me</p>
+        <div class="grid gap-y-3 text-start self-center">
+            <p class="text-5xl font-bold text-cyan-600 mb-8 max-md:text-4xl"> About me</p>
             <div>As a motivated and enthusiastic Frontend Developer fresher, I am eager to start a dynamic career in web development. I have a solid foundation in HTML, CSS, Bootstrap and JavaScript, acquired through rigorous coursework and personal projects. Looking for an opportunity to grow and thrive in a dynamic and challenging environment.</div>
         </div>
 
     </section>
 
     <!----------------------------------------- Skills section------------------------------------------------------------------>
-    <section class="py-40" id="skills">
+    <section class="py-48" id="skills">
         <div class="text-5xl text-center font-bold text-cyan-600 mb-8"> Skills </div>
 
         <div class="flex flex-wrap justify-center text-6xl py-8 gap-20 cursor-pointer">
@@ -82,12 +82,12 @@
     </section>
 
     <!----------------------------------------- Projects section------------------------------------------------------------------>
-    <section class="pt-24" id="projects">
+    <section class="py-44" id="projects">
 
         <div class="text-5xl text-center font-bold text-cyan-600 mb-8"> Projects </div>
 
         <!-----------------------------------------Project-1---------------------------------------------->
-        <div class="flex gap-12 p-12 project-content">
+        <div class="flex gap-12 p-12 project-content max-md:p-4">
             <div class="w-1/2">
                 <img class="rounded-lg h-64" src="./Images/projects-preview/employee-management-crud-preview.png" alt="employee-management-crud-preview">
             </div>
@@ -95,13 +95,13 @@
             <div class="w-1/2">
                 <p class="text-2xl font-bold text-violet-900 mb-4"> Employee management system </p>
                 <p> Employee management system helps to create, update, delete and view the records of employees working in an organization. </p>    
-                <div class="flex gap-8 py-4 cursor-pointer text-center items-center">
+                <div class="flex flex-wrap gap-8 py-4 cursor-pointer text-center items-center max-md:gap-4">
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> React </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Bootstrap </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> React Router </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> mockAPI </p>
                 </div>
-                <div class="project-link">
+                <div class="project-link flex gap-8 text-lg max-md:gap-4">
                     <p> <a href="https://github.com/codeevoyager/employee-management-crud-react" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
                     <p> <a href="https://employee-management-crud-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
                 </div>
@@ -109,16 +109,16 @@
         </div>
 
         <!------------------------------------------Project-2----------------------------------------------->
-        <div class="flex gap-12 p-12 reverse project-content">
+        <div class="flex gap-12 p-12 reverse project-content max-md:p-4">
             <div class="w-1/2">
                 <p class="text-2xl font-bold text-violet-900 mb-4"> Travel Landing page - Worthy Trip</p>
                 <p> Worthy Trip - Explore the world with friends and like-minded travelers. Our group travel experiences unforgettable moments. Join our upcoming adventures with fellow explorers. </p>    
-                <div class="flex gap-8 py-4 cursor-pointer">
+                <div class="flex gap-8 py-4 cursor-pointer max-md:gap-4">
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> HTML5 </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> CSS3 </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Javscript </p>
                 </div>
-                <div class="project-link">
+                <div class="project-link flex gap-8 text-lg max-md:gap-4">
                     <p> <a href="https://github.com/codeevoyager/Travel-landing-page" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
                     <p> <a href="https://worthy-trip-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
                 </div>
@@ -131,7 +131,7 @@
 
 
         <!------------------------------------------Project-3----------------------------------------------->
-        <div class="flex gap-12 p-12 project-content">
+        <div class="flex gap-12 p-12 project-content max-md:p-4">
             <div class="w-1/2">
                 <img class="rounded-lg h-64" src="./Images/projects-preview/weather-app-preview.png" alt="weather-app-preview">
             </div>
@@ -139,13 +139,13 @@
             <div class="w-1/2">
                 <p class="text-2xl font-bold text-violet-900 mb-4"> Weather App </p>
                 <p> Plan your day with confidence by instant access to current temperature and weather conditions. </p>    
-                <div class="flex gap-4 py-4 cursor-pointer items-center">
+                <div class="flex flex-wrap gap-4 py-4 cursor-pointer items-center max-md:gap-2">
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> HTML5 </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> CSS3 </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Javscript </p>
-                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> OpenWeatherMap API </p>
+                    <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> OpenWeather API </p>
                 </div>
-                <div class="project-link">
+                <div class="project-link flex gap-8 text-lg max-md:gap-4">
                     <p> <a href="https://github.com/codeevoyager/weather-app" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
                     <p> <a href="https://weather-app-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
                 </div>
@@ -154,16 +154,16 @@
 
 
         <!------------------------------------------Project-4----------------------------------------------->
-        <div class="flex gap-12 p-12 reverse project-content">
+        <div class="flex gap-12 p-12 reverse project-content max-md:p-4">
             <div class="w-1/2">
                 <p class="text-2xl font-bold text-violet-900 mb-4"> Frontend mentor challenges</p>
                 <p> Here you will find some responses for the frontend mentor challenges. Frontend Mentor challenges helps to improve coding skills by building realistic projects. </p>    
-                <div class="flex gap-8 py-4 cursor-pointer">
+                <div class="flex gap-8 py-4 cursor-pointer max-md:gap-4">
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> HTML5 </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> CSS3 </p>
                     <p class="bg-pink-700 text-slate-50 p-2 rounded-md"> Javscript </p>
                 </div>
-                <div class="project-link">
+                <div class="project-link flex gap-8 text-lg max-md:gap-4">
                     <p> <a href="https://github.com/codeevoyager/frontend-mentor-challenge-projects" target="_blank"> Code <i class="fa fa-github"></i></a> </p>
                     <p> <a href="https://frontend-mentor-challenge-projects-codeevoyager.vercel.app" target="_blank"> Demo <i class="fa fa-external-link"></i></a> </p>
                 </div>
@@ -177,7 +177,7 @@
     </section>
 
     <!----------------------------------------- Contact section------------------------------------------------------------------>
-    <section class="py-32 " id="contact">
+    <section class="py-40" id="contact">
 
         <p class="text-4xl font-bold text-cyan-600 ml-16 mb-8"> Contact </p>
 
@@ -216,7 +216,7 @@
     </section>
 
     <!----------------------------------------- Footer section------------------------------------------------------------------>
-    <footer class="bg-slate-800 text-slate-50 text-3xl p-20 m-0 flex justify-around  [@media(max-width:900px)]:text-xl">
+    <footer class="bg-slate-800 text-slate-50 text-3xl p-20 flex justify-around  [@media(max-width:900px)]:text-xl">
         <div> <i class="fa fa-copyright"></i> 2023 PUDUCHERRY INDIA , INC. ALL RIGHTS RESERVED</div>
 
         <div class="flex gap-4">
