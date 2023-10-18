@@ -14,6 +14,8 @@ function menu(){
         let section = document.querySelectorAll('section');
         let lists = document.querySelectorAll("LI");
 
+
+
         function activeLink(li) {
             lists.forEach((item) => item.classList.remove('active'));
             li.classList.add('active');
@@ -27,7 +29,7 @@ function menu(){
         window.onscroll = () => {
             section.forEach(sec => {
                 let top = window.scrollY,
-                    offset = sec.offsetTop,
+                    offset = sec.offsetTop - 50,
                     height = sec.offsetHeight,
                     id = sec.getAttribute('id');
 
